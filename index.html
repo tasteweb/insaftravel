@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insaf Travel & Tourism</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+   <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        scroll-behavior: smooth;
+    }
+
+    header {
+        background-color: #34495e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+        width: 150px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0 0 0;
+        display: inline-block;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .hero {
+        background-image: url('bg_insaftravel.com.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero h2 {
+        font-size: 3.5em;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero p {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    .hero a {
+        background-color: #e74c3c;
+        color: white;
+        padding: 12px 30px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+    }
+
+    .hero a:hover {
+        background-color: #c0392b;
+    }
+
+    .container {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .container h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        font-weight: 600;
+        color: #2c3e50;
+    }
+
+    .container p {
+        font-size: 1.2em;
+        margin-bottom: 40px;
+        color: #555;
+    }
+
+    .services, .contact {
+        background-color: #fff;
+        margin: 20px 0;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .services ul {
+        list-style-type: none;
+        padding: 0;
+        font-size: 1.1em;
+    }
+
+    .services ul li {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    .services ul li:last-child {
+        border-bottom: none;
+    }
+
+    .contact-info {
+        font-size: 1.2em;
+        margin: 10px 0;
+        color: #555;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+        border: none;
+        margin-top: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+        background-color: #34495e;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 40px;
+        font-size: 1.1em;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        .hero h2 {
+            font-size: 2.2em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        nav ul {
+            display: block;
+        }
+
+        nav ul li {
+            margin: 10px 0;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <!-- Add your logo here -->
+        <img src="logo_insaftravel.com.png" alt="Insaf Travel & Tourism Logo">
+        <h1>Insaf Travel & Tourism</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Your Gateway to Worldwide Air Travel</h2>
+        <p>We book air tickets from all airlines worldwide!</p>
+        <a href="#contact">Contact Us Now</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container">
+        <h2>About Insaf Travel & Tourism</h2>
+        <p>Insaf Travel & Tourism is a trusted name in the travel industry, specializing in providing air ticketing services across the globe. Based in the Kingdom of Saudi Arabia, we assist clients from any part of the world. Whether you're booking a local flight or an international journey, we’re here to help you every step of the way.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services container">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Air Ticketing from All Airlines:</strong> We partner with leading airlines worldwide to offer you the best travel options.</li>
+            <li><strong>International & Domestic Flights:</strong> From short domestic trips to long international hauls, we’ve got you covered.</li>
+            <li><strong>Visa Application Assistance:</strong> We help with various visa applications for Saudi Arabia, Pakistan, and Bangladesh, ensuring a smooth process.</li>
+            <li><strong>24/7 Customer Support:</strong> Assistance anytime, anywhere. We're available through email to help you with your bookings.</li>
+        </ul>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="container">
+        <h2>How to Book with Us</h2>
+        <ol style="text-align: left; display: inline-block;">
+            <li>Email us with your travel preferences (destination, dates, airlines, etc.) or call us.</li>
+            <li>We search for the best available flights that meet your needs.</li>
+            <li>Confirm your booking and make payment.</li>
+            <li>Receive your e-ticket via email or in-person at our office.</li>
+        </ol>
+    </section>
+
+    <!-- Contact Section with Google Map -->
+    <section id="contact" class="contact container">
+        <h2>Get in Touch</h2>
+        <p class="contact-info">We’re here to help you book your next trip and assist with visa applications. Reach out to us today for inquiries or bookings.</p>
+        <p class="contact-info">Email: <a href="mailto:info@insaftravel.com">info@insaftravel.com</a></p>
+ 	<p class="contact-info">Phone: <a href="tel:+966502932827">+966 50 293 2827</a></p>
+        <p class="contact-info">Office Location: Makkah, Saudi Arabia</p>
+
+        <!-- Google Map Embed -->
+        <iframe src="https://maps-api-ssl.google.com/maps?hl=en-US&ll=21.61177,39.697531&output=embed&q=JM6W+PXV,+Al+Nakhil,+Al+Jumum+25335,+Saudi+Arabia+(First+Mall)&z=20"></iframe>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Insaf Travel & Tourism | Your Trusted Travel Partner.</p>
+    </footer>
+
+</body>
+
+</html>
